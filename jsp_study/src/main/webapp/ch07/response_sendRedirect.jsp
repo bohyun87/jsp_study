@@ -7,10 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Hello World</h2>
-	<hr>
-	현재 날짜와 시간은
-	<%=java.time.LocalDateTime.now()%>
-	입니다.
+	<!-- 단순한 페이지 이동/ 데이터 넘겨주는 역할  X => 주소바뀜 -->
+	<% response.sendRedirect("page_control_end.jsp"); %>
 </body>
 </html>

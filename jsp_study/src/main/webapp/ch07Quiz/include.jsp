@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,10 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Hello World</h2>
-	<hr>
-	현재 날짜와 시간은
-	<%=java.time.LocalDateTime.now()%>
-	입니다.
+<h4>구구단 출력하기</h4>
+
+<jsp:include page="include_data.jsp">
+	<jsp:param value="5" name="num" />
+</jsp:include>
+
 </body>
 </html>

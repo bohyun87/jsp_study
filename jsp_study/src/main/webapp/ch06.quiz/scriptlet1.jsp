@@ -7,10 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Hello World</h2>
-	<hr>
-	현재 날짜와 시간은
-	<%=java.time.LocalDateTime.now()%>
-	입니다.
+<% java.util.Date cal = new java.util.Date(); %>
+결과: <%=cal %>
+
 </body>
 </html>

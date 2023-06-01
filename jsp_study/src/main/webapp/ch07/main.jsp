@@ -7,10 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Hello World</h2>
-	<hr>
-	현재 날짜와 시간은
-	<%=java.time.LocalDateTime.now()%>
-	입니다.
+	<jsp:include page="header.jsp">
+		<jsp:param value="My Home" name="title"/>
+	
+	</jsp:include>
 </body>
 </html>

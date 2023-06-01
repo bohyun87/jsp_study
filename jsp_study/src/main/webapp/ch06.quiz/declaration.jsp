@@ -7,10 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Hello World</h2>
-	<hr>
-	현재 날짜와 시간은
-	<%=java.time.LocalDateTime.now()%>
-	입니다.
+	<%!
+		String str = "Hello,Java Server Pages";
+	
+		String getString(String data){
+			return data;
+		}
+	%>
+	
+	결과: <%=getString(str) %>
+
 </body>
 </html>

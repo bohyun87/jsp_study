@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 1. form 태그에 method(전송방식)를 반드시 지정한다. -->
+	<!-- 2. form 태그에 action(request 받을 서버의 주소)을 반드시 지정한다. -->
+             <!-- post: 데이터 숨겨서 출력 -->
+	<form method="post" action="calc.jsp">
+	<!-- 3. 전송하고 싶은 데이터(input, select 태그)와 submit버튼은 반드시 form태드 안에 적어준다. -->
+	<!-- 4. 전송할 데이터를 입력하는 태그에는 반드시 name을 지정해준다. -->
+		<!-- input, select, input 이렇게 총 3개가 post 전송 -->
+		<input type="text" name="n1" id="n1" size="10" />  <!-- name, id 일반적으로 똑같이 쓴다. -->
+		<select name="op" id="op">
+			<option>+</option>
+			<option>-</option>
+			<option>*</option>
+			<option>/</option>
+		</select>
+		<input type="text" name="n2" id="n2" size="10" />
+		<input type="submit" value="실행" /> 
+		<!-- submit: form태그 안에 있는 "input, select, input"을 /jsp_study/calc 로 전송 -->
+	</form>
+	
+</body>
+</html>
