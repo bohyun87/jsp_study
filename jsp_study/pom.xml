@@ -36,5 +36,12 @@
 			<version>11.2.0.4</version>
 		</dependency>
 
+		<!-- beanutils -->
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.4</version>
+		</dependency>
+
 	</dependencies>
 </project>
