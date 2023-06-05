@@ -18,7 +18,7 @@
 		<tr>
 			<td>${i.count}</td>	
 			<td>
-				<a href="/jsp_study//pcontrol?action=info&id=${p.id}">${p.name}</a>
+				<a href="/jsp_study/pcontrol?action=info&id=${p.id}">${p.name}</a>
 			</td>	
 			<td>${p.price}</td>	
 		</tr>
