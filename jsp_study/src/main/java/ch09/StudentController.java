@@ -1,7 +1,6 @@
 package ch09;
 
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
