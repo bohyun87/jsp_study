@@ -6,6 +6,8 @@ public class Regist {
 	private String address;
 	private String grade;
 	private String phone;
+	
+	
 	public String getId() {
 		return id;
 	}
